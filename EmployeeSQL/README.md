@@ -1,1 +1,8 @@
 # sql-challenge
+In this challenge we were asked to use SQL to engineer and analyze multiple csv files so that we could get the information that we pull queries from multiple tables. The way I started this challenge is by data modeling and creating an Entity Relationship Diagram to link the multiple tables up by setting up the  primary keys of each table (one of the primary keys had to be a composite key for the table dept_emp because the primary key had duplicate data and with duplicates it cannot be a primary key) and the foreign keys. This part of the challenge let us know the information in the tables  are related to one another and how we can query the information that we need by following the diagram. 
+
+We then data engineered the tables in SQL by pulling the code from the data diagram from https://app.quickdatabasediagrams.com/#/d/iu44M5 (there were some challenges here as I had to modify the code a little bit to succeed in the import of the CSVs but I got the data diagram and the SQL code to match). This was the most challenging aspect of the assignment.
+
+Finally, we got to perform the analysis by querying information from the tables and I was able to pull this information by performing JOINS and looking at the data diagram to understand how to pull the data. 
+
+In this repository, I uploaded the SQL code (Employee_SQL_code) which contains all my queries with notes. I uploaded an image of the Entity Relationship Diagram ("data diagram image"). Finally, I uploaded the file from the Quick DBD website that contains the code that I used for the data engineering portion ("QuickDBD-Free Diagram").  In the data folder are the CSV files that were used. 
